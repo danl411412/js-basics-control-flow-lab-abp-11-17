@@ -6,5 +6,9 @@ function scuberGreetingForFeet(num) {
     return "No can do.";
   } else if(num > 2000) {
     return "I will gladly take your thirty bucks.";
-  } 
+  }
+}
+
+function ternaryCheckCity(city) {
+  return city === "NYC" ? "Ok, sounds good.":"No go."
 }
